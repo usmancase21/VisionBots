@@ -8,3 +8,9 @@ Factors: One known approach is to use pesticides to remove weeds, but aggressive
 
 
 Solution: Computer vision technology can automatically detect the presence of weeds and use targeted remediation techniques to remove them from fields with minimal environmental impact.
+
+We used opensource Dataset from RoboFlow and here is link 
+Data is acquired by Roboflow:
+
+https://universe.roboflow.com/augmented-startups/weeds-nxe1w
+
