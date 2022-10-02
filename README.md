@@ -1,4 +1,6 @@
 # VisionBots
+![image](https://user-images.githubusercontent.com/113259633/193445588-68cf897d-a224-4f15-b38d-385334fb4420.png)
+
 
 ## Problem: Weeds are an unwanted intruder in the agricultural business. They steal nutrients, water, land, and other critical resources to grow healthy crops. These intruders can lead to lower yields and inefficient deployment of resources by farmers.
 
@@ -28,9 +30,17 @@ The YOLOv7 sought to set the state of the art in object detection by creating a 
 
 
 # Extended Efficient Layer Aggregation
+
+![image](https://user-images.githubusercontent.com/113259633/193445679-5ace4060-bb48-447a-b769-24d6c84cabb8.png)
+
+
 In YOLOv7, considers memory it takes to keep layers in memory along with the distance that it takes a gradient to back-propagate through the layers - the shorter the gradient, the more powerfully their network will be able to learn. The final layer aggregation they choose is E-ELAN, an extend version of the ELAN computational block
 
 # Model Scaling Techniques
+
+
+![image](https://user-images.githubusercontent.com/113259633/193445690-baa48895-5b39-44cc-93b7-bc65919f6faf.png)
+
 
 Object detection models are typically released in a series of models, scaling up and down in size, because different applications require different levels of accuracy and inference speeds
 
@@ -38,6 +48,10 @@ YOLOv7  we scale the network depth and width in concert while concatenating laye
 
 
 # Re-parameterization Planning
+
+
+![image](https://user-images.githubusercontent.com/113259633/193445715-ea0805cd-ef83-472b-b458-201d5690a101.png)
+
 
 Re-parameterization techniques involve averaging a set of model weights to create a model that is more robust to general patterns that it is trying to model. In research, there has been a recent focus on module level re-parameterization where piece of the network have their own re-parameterization strategies.
 
@@ -50,7 +64,7 @@ Auxiliary Head Coarse-to-Fine
 
 The YOLO network head makes the final predictions for the network, but since it is so far downstream in the network, it can be advantageous to add an auxiliary head to the network that lies somewhere in the middle. While you are training, you are supervising this detection head as well as the head that is actually going to make predictions.
 
-YOLOv7 experiment with different levels of supervision for this head, settling on a coarse-to-fine definition where supervision is passed back from the lead head at different granularities.
-
+# YOLOv7 experiment with different levels of supervision for this head, settling on a coarse-to-fine definition where supervision is passed back from the lead head at different granularities.
+# Team VisionBot
 
 
