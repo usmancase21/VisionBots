@@ -1,19 +1,20 @@
 # VisionBots
-Problem: Weeds are an unwanted intruder in the agricultural business. They steal nutrients, water, land, and other critical resources to grow healthy crops. These intruders can lead to lower yields and inefficient deployment of resources by farmers.
+
+## Problem: Weeds are an unwanted intruder in the agricultural business. They steal nutrients, water, land, and other critical resources to grow healthy crops. These intruders can lead to lower yields and inefficient deployment of resources by farmers.
 
 
 
 
-Factors: One known approach is to use pesticides to remove weeds, but aggressive pesticides create health risks for humans. 
+## Factors: One known approach is to use pesticides to remove weeds, but aggressive pesticides create health risks for humans. 
 
 
 
-Solution: Computer vision technology can automatically detect the presence of weeds and use targeted remediation techniques to remove them from fields with minimal environmental impact.
+## Solution: Computer vision technology can automatically detect the presence of weeds and use targeted remediation techniques to remove them from fields with minimal environmental impact.
 
 We used opensource Dataset from RoboFlow and here is link 
 Data is acquired by Roboflow:
 
-https://universe.roboflow.com/augmented-startups/weeds-nxe1w
+# https://universe.roboflow.com/augmented-startups/weeds-nxe1w
 
 
 We haved Used YOLOV7 
@@ -25,17 +26,17 @@ YOLOv7 infers faster and with greater accuracy than its cohorts, pushing the sta
 The YOLOv7 sought to set the state of the art in object detection by creating a network architecture that would predict bounding boxes more accurately than its peers at similar inference speed
 
 
-Extended Efficient Layer Aggregation
+# Extended Efficient Layer Aggregation
 In YOLOv7, considers memory it takes to keep layers in memory along with the distance that it takes a gradient to back-propagate through the layers - the shorter the gradient, the more powerfully their network will be able to learn. The final layer aggregation they choose is E-ELAN, an extend version of the ELAN computational block
 
-Model Scaling Techniques
+# Model Scaling Techniques
 
 Object detection models are typically released in a series of models, scaling up and down in size, because different applications require different levels of accuracy and inference speeds
 
 YOLOv7  we scale the network depth and width in concert while concatenating layers together. Ablation studies show that this technique keep the model architecture optimal while scaling for different sizes.
 
 
-Re-parameterization Planning
+# Re-parameterization Planning
 
 Re-parameterization techniques involve averaging a set of model weights to create a model that is more robust to general patterns that it is trying to model. In research, there has been a recent focus on module level re-parameterization where piece of the network have their own re-parameterization strategies.
 
